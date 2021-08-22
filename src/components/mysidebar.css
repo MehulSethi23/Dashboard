@@ -1,0 +1,37 @@
+.panel {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  flex: 1;
+}
+
+ul {
+  background: rgba(0, 0, 0, 0);
+  border-right: 5px solid white;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+ul li {
+  list-style: none;
+  padding: 15px;
+  padding-right: 0;
+  color: black;
+
+  font-size: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+ul li:hover {
+  transition: 0s;
+  background: rgb(229, 228, 226);
+}
+
+ul li.active {
+  background: white;
+}
